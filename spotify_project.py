@@ -13,8 +13,9 @@ import plotly.figure_factory as ff
 from PIL import Image
 
 st.title("Spotify Data Analytics Dashboard")
-logo = Image.open(r"C:\Users\KIIT0001\Desktop\Work")
+logo = Image.open("assets/spotify.png")
 st.image(logo, width=30)
+
 
 st.set_page_config(
     page_title="Spotify Data Analytics Dashboard",

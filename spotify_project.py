@@ -24,7 +24,8 @@ st.set_page_config(
 
 #@st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\KIIT0001\Desktop\TU Berlin\Work\high_popularity_spotify_data.csv")
+    return pd.read_csv("data/high_popularity_spotify_data.csv")
+
 
 
 # function call
